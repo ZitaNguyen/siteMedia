@@ -1,0 +1,179 @@
+/***************** HEADER *****************/
+header {
+    background-color: white;
+    height: 100px;
+    border-bottom: 1px solid rgb(4, 106, 223);
+    display: flex;
+}
+
+#logo {
+    width: 20%;
+    margin-left: 15%;
+}
+
+#logo img {
+    height: 100px;
+    width: auto;
+    position: absolute;
+    z-index: 0;
+}
+
+#logo p {
+    font-weight: bold;
+    color: rgb(4, 106, 223);
+    font-size: 30px;
+    margin-left: 45%;
+    margin-top: 0;
+}
+
+header ul {
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 5%;
+} 
+
+header ul li{
+    display: inline;
+    padding: 0 10px;
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#lang {
+    width: 20%;
+}
+
+#lang img {
+    height: 20px;
+    width: auto;
+    padding: 0 10px;
+}
+
+
+/***************** SECTION *****************/
+section {
+    width: 90%;
+    display: flex;
+    height: 650px;
+    background-color: white;
+    margin-left: 7%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(233, 230, 230);
+}
+#gauche {
+    width: 50%;
+}
+
+#droite {
+    width: 50%;
+}
+
+/***************** GAUCHE *****************/
+#fleche1 {
+    height: 30px;
+    width:auto;
+    margin-left: 1%;
+    position: absolute;
+    z-index: 0;
+}
+
+#gauche span {
+    color:rgb(4, 106, 223); 
+    font-weight: bold; 
+    font-size: 20px;
+   
+}
+
+#gauche p:first-child {
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+.titre {
+    font-size: 30px;
+    color: rgb(4, 106, 223);
+    font-weight: bold;
+    text-align: center;
+}
+
+.actualite img {
+    height: 100px;
+    width: auto;
+    position: absolute;
+    z-index: 0;
+    margin-left: 1%;
+}
+
+.actualite p {
+    margin-left: 32%;
+    margin-right: 3%;
+    text-align: justify;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+}
+
+/***************** DROITE *****************/
+#fleche2 {
+    height: 30px;
+    width:auto;
+    margin-top: 2%;
+    position: absolute;
+    z-index: 0;
+}
+
+#droite img:last-of-type {
+    height: 200px;
+    width: 450px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+#droite a {
+    text-decoration: none;
+    color: white;
+}
+
+#droite div {
+    background-color: rgb(63, 63, 63);
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 10px 0;
+    width: 500px; 
+    margin-left: 10%;
+}
+
+#droite video {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+/***************** FOOTER *****************/
+footer {
+    height: 100px;
+    background-color: black;
+}
+
+footer nav {
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    
+}
+
+footer a + a:before {
+    content: "-";
+    padding: 0 5px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
